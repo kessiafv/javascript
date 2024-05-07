@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual seu país?</title>
+</head>
+<body>
+    <h1>Onde você vive?</h1>
+    Em que país <input type="text" name="txtnac" id="txtnac" onclick="mostrar"> você vive? <br>
+    <input type="submit" value="Enviar" onclick="enviar()">
+
+    <div id="info">
+
+    </div>
+        
+    <script>
+        function enviar() {
+            var nacionalidade = window.document.querySelector('input#txtnac')
+            var res = window.document.querySelector('div#info')
+            var mostrar = nacionalidade.value
+            res.innerHTML = `<p>Você vive no país ${mostrar}</p>`
+            if (mostrar == 'Brasil'){
+                res.innerHTML = `Você é Brasileiro`
+            } else
+                res.innerHTML = `Você é Estrangeiro`    
+        }
+
+    </script>
+</body>
+</html>
