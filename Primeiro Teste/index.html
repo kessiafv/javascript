@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Faça seu orçamento</h1>
+    </header>
+    <section>
+        <div>
+            <p>Descrição:
+                <input type="text" name="nprod" id="nprod">
+            </p>
+            <p>Valor:
+                <input type="number" name="vprod" id="prod">
+            </p>
+            <p>
+                <input type="button" value="Enviar" onclick="Enviar">
+            </p>
+        </div>
+        <div>
+            <select name="orcamento" id="oprod" size="15"></select>
+        </div>
+        <div id="res">
+
+        </div>
+
+    </section>
+    <footer>
+        Obrigada pela preferência!
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

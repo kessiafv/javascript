@@ -1,0 +1,33 @@
+// var clothes = [];
+// clothes.push("camiseta");
+// clothes.push("calça");
+// clothes.push("moletom");
+// clothes.push("jaqueta");
+// clothes.push("vestido");
+// clothes.pop("vestido");
+// clothes.push("camisa");
+// console.log(clothes[2])
+
+// var item = [];
+// console.log(typeof item)
+
+// var result = "Hello".indexOf('l');
+// console.log(result)
+
+// var clothes = [];
+//   clothes.push('gray t-shirt');
+//   clothes.push('green scarf');
+//   clothes.pop();
+//   clothes.push('slippers');
+//   clothes.pop();
+//   clothes.push('boots');
+//   clothes.push('old jeans');
+
+//   console.log(clothes.length)
+
+var food = [];
+  food.push('Chocolate');
+  food.push('Ice cream');
+  food.push('Donut');
+
+  console.log(food[1])
